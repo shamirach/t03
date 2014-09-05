@@ -1,0 +1,70 @@
+/* אודיה לוי 204467427 שמירה צ'רי 321046237*/
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+}
+a,
+a:link {
+    outline: none;
+}
+h1 {
+    font-weight: 100;
+    font-size: 72px;
+    margin: 20px 0;
+    text-align: center;
+    font-family: "Times New Roman";
+    color: orange;
+    
+}
+
+.container {
+    border: 2px solid #a1a1a1;
+    padding: 10px 40px;
+    border-radius: 25px;
+    width: 800px;
+    text-align: center;
+    margin: 20px auto;
+}
+ input::-webkit-input-placeholder {
+ font-style: italic;
+}
+input[type="text"] {
+    height: 56px;
+    width: 400px;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 24px;
+    border-radius: 5px;
+}
+input[type="submit"] {
+    height: 56px;
+    padding: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    background-color: #CCE0E0;
+    color: #000000;
+}
+input[type="checkbox"]{
+    height: 15px;
+    width: 15px;
+    
+}
+ul {
+    margin: 15px auto 0;
+    padding: 0;
+    width: 250px;
+}
+ul li {
+    list-style-type: none;
+    font-size: 20px;
+    background-color: #efefef;
+    margin-bottom: 5px;
+    padding: 10px;
+    text-align: left;
+}
+li:hover {
+background-color: #CCE0E0;
+}
